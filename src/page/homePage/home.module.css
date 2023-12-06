@@ -1,0 +1,30 @@
+.container {
+    width: 1440px;
+    margin: 0px 80px;
+    box-sizing: border-box;
+}
+
+.search {
+    background-color: #F9F0EC;
+    height: 779px;
+}
+
+.searchLeft {
+    padding-top: 80px;
+    font-size: 64px;
+    line-height: 81.92px;
+    color: #0DC5AE;
+    padding-left: 40px;
+}
+
+.head2 {
+    color: #FF0054;
+}
+
+.headText {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 28px;
+    width: 400px;
+    color: #637381;
+}

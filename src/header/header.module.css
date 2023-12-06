@@ -1,0 +1,21 @@
+.nav {
+    margin: 0px 80px;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    display: flex;    
+    width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+    background-color: #F9F0EC;
+}
+
+.menuText {
+    text-decoration: none;
+    color:#212B36;
+    font-size: 20px;
+    line-height: 30px;
+    &:hover{
+        color: #FF0054;
+    }
+}
