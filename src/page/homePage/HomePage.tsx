@@ -9,6 +9,11 @@ import IntroLeft4 from '../../assets/homeIntro/chevron down.png'
 import IntroRight1 from '../../assets/homeIntro/Frame 629.png'
 import IntroRight2 from '../../assets/homeIntro/Frame 87.png'
 import IntroRight3 from '../../assets/homeIntro/Frame 88.png'
+import chooseUs1 from '../../assets/chooseUs/illustration_benefits.png'
+import chooseUs2 from '../../assets/chooseUs/Group 1663.png'
+import chooseUs3 from '../../assets/chooseUs/illustration_marketing_contact.png'
+import product from '../../assets/product/PhotoRoom_20230807_104800 1.png'
+import { NavLink } from "react-router-dom"
 
 function HomePage() {
     return(
@@ -74,6 +79,69 @@ function HomePage() {
                     <div className={styles.introRight2}><img src={IntroRight2} alt="" /></div>                                           
                     <div className={styles.introRight3}><img src={IntroRight3} alt="" /></div>                                           
                 </div>
+            </div>
+
+            <div>
+                <p className={styles.chooseUsTittle}>Tại sao nên lựa chọn chúng tôi</p>                      
+            </div>  
+
+            <div className={styles.chooseUsList}>
+                <div className={styles.chooseUs}>
+                    <img src={chooseUs1} alt="" />
+                    <p className={styles.chooseUsHead}>Giá cả hợp lý</p>
+                    <p className={styles.chooseUsText}>Giá thành hợp lý được cung cấp với từng mức giá, phù hợp cho mọi đối tượng.</p>
+                </div>                            
+                <div className={styles.chooseUs}>
+                    <img src={chooseUs2} alt="" />
+                    <p className={styles.chooseUsHead}>Chất lượng đảm bảo</p>
+                    <p className={styles.chooseUsText}>Chất lượng các sản phẩm phù hợp với giá tiền, bắt mắt và phù hợp với xu hướng.</p>
+                </div>                            
+                <div className={styles.chooseUs}>
+                    <img src={chooseUs3} alt="" />
+                    <p className={styles.chooseUsHead}>Mới mẻ và tiện lợi</p>
+                    <p className={styles.chooseUsText}>Nhiều tính năng mới lạ, tiện dụng với người sử dụng.</p>
+                </div>                            
+            </div>
+
+            <div className={styles.product}>
+                <p className={styles.productTittle}>Hệ sinh thái <span className={styles.productTittle2}>True</span><span className={styles.productTittle3}>Connect</span></p>                            
+                <div style={{position: "absolute",
+                                right: "90px",
+                                width: "129px",
+                                height: "30px",
+                                display: "flex",
+                                justifyContent: "space-between",
+                                alignItems: "center"
+                                }}>
+                        <a href="" style={{textDecoration: "none",
+                                        color: "#FF0054",
+                                        fontSize: "20px",
+                                        fontWeight: "600"
+                                        }}>Xem thêm</a>
+                        <img src={IntroLeft4} alt="" style={{
+                                        width: "24px",
+                                        height: "24px"
+                                        }}/>
+                    </div>
+                <div className={styles.productHero}>
+                    <div className={styles.productHero1}>
+                        <NavLink className={styles.productHero1Text} to="/">Danh thiếp điện tử </NavLink>
+                        <NavLink className={styles.productHero1Text} to="/">Website mini </NavLink>
+                        <NavLink className={styles.productHero1Text} to="/">Web doanh nghiệp</NavLink>
+                        <NavLink className={styles.productHero1Text} to="/">Dịch vụ tư vấn Chuyển đổi số</NavLink>
+                        <NavLink className={styles.productHero1Text} to="/">Phòng CNTT thuê ngoài </NavLink>
+                        <NavLink className={styles.productHero1Text} to="/">Ứng dụng cho doanh nghiệp SME</NavLink>
+                    </div>
+                    <div className={styles.productHero2}>
+                        <img src={product} alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.news}>
+                <div>
+                    <p>Bài viết mới nhất</p>                           
+                </div>                        
             </div>
         </div>
         </>
