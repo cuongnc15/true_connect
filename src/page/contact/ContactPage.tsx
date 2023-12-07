@@ -1,3 +1,4 @@
+import Footer from '../../footer/Footer'
 import Header from '../../header/Header'
 import Contact from './Contact'
 
@@ -6,6 +7,7 @@ function ContactPage() {
         <>
         <Header></Header>
         <Contact></Contact>
+        <Footer></Footer>
         </>
     )
 }

@@ -1,4 +1,7 @@
 import styles from './contact.module.css'
+import phone from '../../assets/contact/Sốđiệnthoại 1.png'
+import mess from '../../assets/contact/icon-02 1.png'
+import zalo from '../../assets/contact/zalo 1.png'
 
 function Contact() {
     return(
@@ -21,6 +24,9 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <div className={styles.contactIcon1}><img src={phone} alt="" /></div>
+            <div className={styles.contactIcon2}><img src={mess} alt="" /></div>
+            <div className={styles.contactIcon3}><img src={zalo} alt="" /></div>
         </div>
         </>
     )
