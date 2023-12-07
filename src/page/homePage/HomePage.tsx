@@ -13,6 +13,11 @@ import chooseUs1 from '../../assets/chooseUs/illustration_benefits.png'
 import chooseUs2 from '../../assets/chooseUs/Group 1663.png'
 import chooseUs3 from '../../assets/chooseUs/illustration_marketing_contact.png'
 import product from '../../assets/product/PhotoRoom_20230807_104800 1.png'
+import newsHead from '../../assets/news/Image Ratio Overlay.png'
+import newsItem1 from '../../assets/news/Image Ratio.png'
+import newsItem2 from '../../assets/news/Image Ratio2.png'
+import newsItem3 from '../../assets/news/Image Ratio3.png'
+import newsItem4 from '../../assets/news/Image Ratio4.png'
 import { NavLink } from "react-router-dom"
 
 function HomePage() {
@@ -122,7 +127,7 @@ function HomePage() {
                                         width: "24px",
                                         height: "24px"
                                         }}/>
-                    </div>
+                </div>
                 <div className={styles.productHero}>
                     <div className={styles.productHero1}>
                         <NavLink className={styles.productHero1Text} to="/">Danh thiếp điện tử </NavLink>
@@ -139,8 +144,45 @@ function HomePage() {
             </div>
 
             <div className={styles.news}>
-                <div>
-                    <p>Bài viết mới nhất</p>                           
+                <div className={styles.newsTittle}>
+                    <div>
+                    <p className={styles.newsTittleHead}>Bài viết mới nhất</p>                           
+                    <p className={styles.newsTittleText}>Nơi những khách hàng của TrueConnect cập nhật những tin tức mới nhất về thị trường công nghệ</p>
+                    </div>
+                    <div className={styles.newsTittleIcon}>
+                    <div style={{position: "absolute",
+                                right: "100px",
+                                width: "129px",
+                                height: "30px",
+                                display: "flex",
+                                justifyContent: "space-between",
+                                alignItems: "center"
+                                }}>
+                        <a href="" style={{textDecoration: "none",
+                                        color: "#FF0054",
+                                        fontSize: "20px",
+                                        fontWeight: "600"
+                                        }}>Xem thêm</a>
+                        <img src={IntroLeft4} alt="" style={{
+                                        width: "24px",
+                                        height: "24px"
+                                        }}/>
+                    </div>
+                    </div>
+                </div>
+                <div className={styles.newsList}>
+                    <div className={styles.newsListHead}
+                        style={{backgroundImage: `url(${newsHead})`}}>
+                        <div className={styles.newsListHeadText}>
+                            <p>24 May 2019 8 mins</p>
+                            <p>Event On A Budget: 7 Tips From The Great Depression</p>
+                            <p>Aenean viverra rhoncus pede. Phasellus blandit leo ut odio. Pellentesque commodo eros a enim. Phasellus consectetuer vestibulum elit.</p>
+                        </div>
+                    </div>
+                    <div className={styles.newsListItem1}><img src={newsItem1} alt="" /></div>                   
+                    <div className={styles.newsListItem2}><img src={newsItem2} alt="" /></div>                   
+                    <div className={styles.newsListItem3}><img src={newsItem3} alt="" /></div>                   
+                    <div className={styles.newsListItem4}><img src={newsItem4} alt="" /></div>                   
                 </div>                        
             </div>
         </div>
