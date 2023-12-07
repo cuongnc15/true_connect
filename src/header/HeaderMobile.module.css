@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F9F0EC;
+}
+
+.menuTextm {
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.container {
+    width: 1440px;
+    margin: 0px 80px;
+    padding-top: 50px;
+}
+
+.head {
+    padding: 30px 100px;
+}
+
+.headTittle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51.2px;
+    color: #0DC5AE;
+}
+
+.headList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.headList1 {
+    grid-row: 1;
+    grid-column: 1 / 2;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40.96px;
+    color: #212B36;
+}
+

@@ -6,7 +6,6 @@
     width: 1440px;
     justify-content: space-between;
     align-items: center;
-    z-index: 20;
     background-color: #F9F0EC;
     top: 0px;
 }
@@ -20,4 +19,46 @@
         color: #FF0054;
     }
     font-weight: 600;
+}
+
+.logoMobile {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width: 375px) {
+    .menuText {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logoMobile {
+        display: inline-block;
+    }
+
+    .menu {
+        display: inline-block;
+    }
+
+    .nav {
+        margin: 0px 0px;
+        box-sizing: border-box;
+        padding: 20px 20px;
+        display: flex;    
+        width: 375px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F9F0EC;
+        top: 0px;
+    }
+
+    .headItem {
+        display: flex;
+    }
 }
