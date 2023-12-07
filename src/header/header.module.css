@@ -8,6 +8,7 @@
     align-items: center;
     z-index: 20;
     background-color: #F9F0EC;
+    top: 0px;
 }
 
 .menuText {

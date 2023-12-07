@@ -1,0 +1,64 @@
+.contact {
+    background-image: url("../../assets/contact/BG.png");
+    width: 1440px;
+    height: 624px;
+    margin: 0px 80px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.contactHero {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 140px;
+    top: 150px;
+}
+
+.contactTextHead {
+    margin-top: 0px;
+    font-size: 48px;
+    line-height: 61.44px;
+    font-weight: 700;
+    color: #0DC5AE;
+}
+
+.contactText2 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: white;
+    width: 363px;
+}
+
+.contactForm {
+    padding-left: 150px;
+}
+
+.contactFormInput {
+    width: 466px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #919EAB14;
+    color: #919EAB;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+&::placeholder {
+    color: #919EAB;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+}
+
+.contactFormButton {
+    background-color: #0DC5AE;
+    border-radius: 8px;
+    padding: 11px 22px 11px 22px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+}
