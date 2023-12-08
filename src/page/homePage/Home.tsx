@@ -26,8 +26,8 @@ import partner7 from '../../assets/partner/logo-removebg.png'
 import { NavLink } from "react-router-dom"
 import Contact from "../contact/Contact"
 
-function Home() {
-    
+function Home(props: any) {
+
     return(
         <>
         <div className={styles.container}>

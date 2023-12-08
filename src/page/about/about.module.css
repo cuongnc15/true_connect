@@ -5,7 +5,13 @@
 }
 
 .head {
-    padding: 30px 80px;
+    padding: 50px 80px;
+}
+
+.headLine {
+    border-bottom: solid 4px #FF0054;
+    width: 136px;
+    margin-bottom: 20px;
 }
 
 .headTittle {
@@ -22,3 +28,21 @@
     color: #212B36;
 }
 
+.intro {
+    padding: 50px 80px;
+}
+
+.introT{
+    font-size: 128px;
+    line-height: 163.84px;
+    font-weight: 700;
+    color: #212B36;
+    display: inline;
+}
+
+.visionText {
+    font-size: 32px;
+    line-height: 41px;
+    font-weight: 600;
+    color: #FF0054;
+}
