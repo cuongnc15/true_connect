@@ -355,3 +355,10 @@
     padding: 10px 20px;
 }
 
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 375px;
+        box-sizing: border-box;
+        background-color: #DFDFDF;
+    }
+}

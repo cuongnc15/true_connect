@@ -5,7 +5,7 @@
 }
 
 .head {
-    padding: 30px 100px;
+    padding: 30px 80px;
 }
 
 .headTittle {
@@ -15,14 +15,7 @@
     color: #0DC5AE;
 }
 
-.headList {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
 .headList1 {
-    grid-row: 1;
-    grid-column: 1 / 2;
     font-size: 32px;
     font-weight: 600;
     line-height: 40.96px;

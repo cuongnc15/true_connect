@@ -1,12 +1,12 @@
 .nav {
-    display: flex;
-    flex-direction: column;
+    display: grid;    
     position: fixed;
-    top: 0;
+    top: 80px;
     left: 0;
     background-color: #F9F0EC;
 }
 
 .menuTextm {
     text-decoration: none;
+    padding: 10px 20px;
 }

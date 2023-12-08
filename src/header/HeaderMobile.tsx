@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import styles from './header.module.css'
+import styles from './HeaderMobile.module.css'
 
 function HeaderMobile(props: any) {
 
