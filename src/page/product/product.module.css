@@ -1,0 +1,12 @@
+.container {
+    background-color: #F9F0EC;
+    width: 1440px;
+    margin: 0px 80px;
+    padding: 50px 0px;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: white;
+    padding: 30px 30px;
+}

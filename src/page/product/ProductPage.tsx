@@ -1,12 +1,12 @@
 import Footer from "../../footer/Footer"
 import Header from "../../header/Header"
-import Product from "./Product"
+import ProductList from "./ProductList"
 
 function ProductPage() {
     return(
         <>
         <Header></Header>
-        <Product></Product>
+        <ProductList></ProductList>
         <Footer></Footer>
         </>
     )
