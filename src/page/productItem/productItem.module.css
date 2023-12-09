@@ -1,0 +1,19 @@
+.productItem {
+    box-sizing: border-box;
+    padding: 0px 80px;
+    width: 1440px;
+}
+
+.headLine {
+    border-bottom: solid 4px #FF0054;
+    width: 136px;
+    margin-bottom: 50px;
+}
+
+.headTittle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51.2px;
+    color: #0DC5AE;
+    margin-top: 50px;
+}

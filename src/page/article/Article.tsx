@@ -1,7 +1,7 @@
 function Article() {
     return(
         <>
-        <p>a</p>
+        
         </>
     )
 }

@@ -1,11 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomePage from './page/homePage/HomePage';
-import Article from './page/article/Article';
 import ContactPage from './page/contact/ContactPage';
 import AboutPage from './page/about/AboutPage';
 import ProductPage from './page/product/ProductPage';
 import NewsPage from './page/news/NewsPage';
+import ProductItemPage from './page/productItem/ProductItemPage';
+import ArticlePage from './page/article/ArticlePage';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <Route  path="/about" element={<AboutPage/>} />
       <Route  path="/product" element={<ProductPage/>} />
       <Route  path="/news" element={<NewsPage/>} />
-      <Route  path="/article" element={<Article/>} />
+      <Route  path="/article" element={<ArticlePage/>} />
       <Route  path="/contact" element={<ContactPage/>} />
+      <Route  path="/productItem" element={<ProductItemPage/>} />
     </Routes>
    </>
   );
