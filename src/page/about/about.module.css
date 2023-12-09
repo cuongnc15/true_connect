@@ -19,6 +19,8 @@
     font-weight: 700;
     line-height: 51.2px;
     color: #0DC5AE;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .headList1 {
@@ -26,6 +28,8 @@
     font-weight: 600;
     line-height: 40.96px;
     color: #212B36;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .intro {
@@ -38,6 +42,8 @@
     font-weight: 700;
     color: #212B36;
     display: inline;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .visionText {
@@ -45,4 +51,31 @@
     line-height: 41px;
     font-weight: 600;
     color: #FF0054;
+    font-family: 'Poppins', sans-serif;
+
 }
+
+.value {
+    box-sizing: border-box;
+    background-color: #F9F0EC;
+    padding: 40px 40px;
+}
+
+.valueHead {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #FF0054;
+    font-family: 'Poppins', sans-serif;
+}
+
+.valueText {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+

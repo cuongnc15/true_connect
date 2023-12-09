@@ -26,7 +26,7 @@ function Header() {
                 <div className={styles.menu}><img src={menu} alt="menu" 
                     onClick={showMenuHandler}/>
                 </div>
-                <div><img src={search} alt="search" /></div>
+                <div className={styles.navSearch}><img src={search} alt="search" /></div>
             </div>
             <NavLink className={styles.menuText} to="/">Trang chủ</NavLink>
             <NavLink className={styles.menuText} to="/about">Về chúng tôi</NavLink>

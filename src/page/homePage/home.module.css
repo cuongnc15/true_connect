@@ -19,6 +19,7 @@
     margin-left: 40px;
     width: 466px;
     height: 348px;
+    
 }
 
 .head {
@@ -26,12 +27,16 @@
     line-height: 81.92px;
     color: #0DC5AE;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .head2 {
     font-size: 64px;
     line-height: 81.92px;
     color: #FF0054;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .headText {
@@ -40,6 +45,8 @@
     font-weight: 700;
     line-height: 28px;   
     color: #637381;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .seachInput {
@@ -91,6 +98,8 @@
     line-height: 51.2px;
     color: #0DC5AE;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .introHead2 {
@@ -103,6 +112,8 @@
     font-weight: 400;
     text-align: justify;
     color: #212B36;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .introIconList {
@@ -123,6 +134,8 @@
     font-weight: 500;
     color: #212B36;
     margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .introIcon img {
@@ -146,6 +159,8 @@
     line-height: 51.2px;
     color: #023F3A;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .chooseUsList {
@@ -167,6 +182,8 @@
     font-weight: 600;
     line-height: 25.6px;
     color: #0DC5AE;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .product {
@@ -181,6 +198,8 @@
     color: #0DC5AE;
     line-height: 51.2px;
     margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .productTittle2 {
@@ -213,6 +232,8 @@
         background-color: #FF5722;
         color: white;
     }
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .news {
@@ -233,6 +254,8 @@
     font-weight: 700;
     line-height: 51.2px;
     color: #0DC5AE;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .newsTittleText {
@@ -240,6 +263,8 @@
     font-weight: 400;
     line-height: 28px;
     color: #637381;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .newsTittleIcon {
@@ -302,6 +327,8 @@
     line-height: 20px;
     color: white;
     opacity: 72%;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .newsListHeadTextTittle {
@@ -311,6 +338,8 @@
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .newsListHeadText2 {
@@ -319,6 +348,8 @@
     font-weight: 400;
     color: #FFFFFF;
     opacity: 48%;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .newsListItemTime {
@@ -327,6 +358,8 @@
     font-weight: 400;
     color: #919EAB;
     ;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .newsListItemText {
@@ -334,6 +367,7 @@
     line-height: 28px;
     font-weight: 600;
     color: #212B36;
+    font-family: 'Poppins', sans-serif;
     ;
 }
 
@@ -344,6 +378,8 @@
     color: #0DC5AE;
     text-align: center;
     padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .partnerList {

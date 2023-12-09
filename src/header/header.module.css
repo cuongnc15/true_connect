@@ -15,10 +15,11 @@
     color:#212B36;
     font-size: 20px;
     line-height: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     &:hover{
         color: #FF0054;
-    }
-    font-weight: 600;
+    };
 }
 
 .logoMobile {
@@ -29,9 +30,17 @@
     display: none;
 }
 
-@media only screen and (max-width: 375px) {
+.navSearch {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
     .menuText {
         display: none;
+    }
+
+    .navSearch {
+        display: block;
     }
 
     .logo {
