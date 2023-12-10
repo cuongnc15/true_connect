@@ -1,12 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomePage from './page/homePage/HomePage';
-import ContactPage from './page/contact/ContactPage';
 import AboutPage from './page/about/AboutPage';
 import ProductPage from './page/product/ProductPage';
 import NewsPage from './page/news/NewsPage';
-import ProductItemPage from './page/productItem/ProductItemPage';
 import ArticlePage from './page/article/ArticlePage';
+import ContactPage from './page/contact/ContactPage';
+import ProductItemPage from './page/productItem/ProductItemPage';
 
 function App() {
   return (
